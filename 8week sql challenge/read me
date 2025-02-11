@@ -1,0 +1,69 @@
+# 🍣 Case Study #1 - Danny's Diner  
+
+## 📌 Introduction  
+Danny loves Japanese food, and in early 2021, he decided to take a risk and open **Danny’s Diner**, a small restaurant serving his three favorite dishes: **sushi, curry, and ramen**.  
+
+Danny needs data-driven insights to keep his business running efficiently. The restaurant has collected some basic data but lacks the expertise to analyze it. This case study aims to explore **customer behavior, spending habits, and menu preferences** to help Danny make informed decisions.  
+
+## 🎯 Problem Statement  
+Danny wants to answer key business questions, including:  
+- **Customer Visiting Patterns**: How often do customers visit?  
+- **Spending Analysis**: How much has each customer spent?  
+- **Menu Insights**: Which items are the most popular?  
+- **Loyalty Program Impact**: How effective is the membership program?  
+
+The goal is to generate meaningful insights using **SQL queries** so that Danny can make data-driven decisions, including whether to expand his **customer loyalty program**.  
+
+## 📂 Datasets Provided  
+Danny has shared three key datasets:  
+
+### 🛒 `sales`  
+Records of transactions, including customer visits and purchases.  
+
+| customer_id | order_date | product_id |  
+|------------|------------|------------|  
+| A          | 2021-01-01 | 1          |  
+| A          | 2021-01-01 | 2          |  
+| B          | 2021-01-02 | 2          |  
+
+### 🍽️ `menu`  
+Details about the items sold at Danny’s Diner, including prices.  
+
+| product_id | product_name | price |  
+|------------|-------------|------|  
+| 1          | sushi       | 10   |  
+| 2          | curry       | 15   |  
+| 3          | ramen       | 12   |  
+
+### 🎟️ `members`  
+Information on customers enrolled in the **loyalty program**.  
+
+| customer_id | join_date  |  
+|------------|------------|  
+| A          | 2021-01-07 |  
+| B          | 2021-01-09 |  
+
+## 🛠️ SQL Concepts Used  
+✅ **Joins (INNER, LEFT, RIGHT, FULL)**  
+✅ **Aggregations (SUM, COUNT, AVG, MAX, MIN)**  
+✅ **Common Table Expressions (CTEs)**  
+✅ **Window Functions (RANK, ROW_NUMBER, DENSE_RANK)**  
+✅ **CASE Statements**  
+✅ **Subqueries & Derived Tables**  
+
+## 🔍 Insights & Analysis  
+This case study aims to:  
+✔ Identify **top customers** based on spending  
+✔ Find the **most popular menu items**  
+✔ Analyze **loyal vs. non-loyal customers**  
+✔ Evaluate the **impact of the loyalty program**  
+
+## 🚀 How to Use  
+1. Clone this repository  
+2. Load the provided datasets into **PostgreSQL (pgAdmin 4)**  
+3. Run the SQL queries in the `queries.sql` file  
+4. Analyze the results and gain insights!  
+
+---
+
+
