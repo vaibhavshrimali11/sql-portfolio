@@ -1,32 +1,30 @@
-# 🚦 UK Road Safety Accidents – Data Analysis  
+# 🚦 UK Road Safety Accidents (2015)  
 
-This project analyzes **UK road accident data** to uncover key trends, severity factors, and risk zones.  
+This project analyzes **UK road accident data (2015)** to uncover key trends and severity factors.  
 
 ## 📂 Project Files  
+- `table_creation.sql` – Database schema and table creation.  
+- `SQL_Analysis.sql` – Data analysis queries.  
+- `Median_Severity_Calculation.sql` – Computes median accident severity.  
 
-### 🏗️ Database Setup & Table Creation  
-- [`table_creation.sql`](table_creation.sql) - Defines database schema and creates structured tables for accident data.  
+## 📊 Dataset Overview  
+The dataset contains **road accident records** with details on severity, involved vehicles, and contributing factors.  
 
-### 📊 Data Analysis Queries  
-- [`SQL_Analysis.sql`](SQL_Analysis.sql) - SQL queries for insights on accident severity, locations, and contributing factors.  
-
-### 📈 Median Severity Calculation  
-- [`Median_Severity_Calculation.sql`](Median_Severity_Calculation.sql) - Computes median accident severity for different vehicle types.  
+### 📌 Key Tables  
+1️⃣ **Accidents** – Accident index & severity level.  
+2️⃣ **Vehicles** – Types of vehicles involved in accidents.  
+3️⃣ **Vehicle Types** – Mapping of vehicle codes to descriptions.  
+4️⃣ **Accidents Median** – Median severity scores for different vehicle types.  
 
 ## 🔍 Key Insights  
-✅ Identifies high-risk accident zones.  
-✅ Analyzes accident trends by vehicle type, weather, and time.  
-✅ Provides data-driven recommendations for road safety.  
+✔ **Which vehicle types have the highest accident severity?**  
+✔ **What is the average severity per vehicle type?**  
+✔ **How do motorcycle accidents compare to other vehicles?**  
+✔ **What is the median accident severity for motorcycles?**  
+✔ **How is accident severity distributed across different vehicle types?**  
+✔ **How can indexing improve query performance?**  
 
 ## 🛠️ Technologies Used  
-- **SQL (PostgreSQL/MySQL)** – Data processing & analysis.  
+- **SQL (PostgreSQL)** – Data processing & analysis.  
 
-## 📊 Outcomes  
-- Helps in **road safety improvements** & **accident prevention strategies**.  
-- Provides **data-driven insights** for policymakers and urban planners.  
-
----
-
-📌 **Contributions & Suggestions are Welcome!** 🤝  
-
- 
+📌 **Contributions & Suggestions are Welcome!** 🚀  
